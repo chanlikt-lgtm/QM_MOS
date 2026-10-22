@@ -3,7 +3,12 @@ Analysis_of_the_MOS_transistor_*.pdf
 
 # Python
 __pycache__/
-*.pyc
+*.py[cod]
+*$py.class
+*.npz.bak
+.pytest_cache/
+.DS_Store
+Thumbs.db
 
 # LaTeX aux
 *.aux
