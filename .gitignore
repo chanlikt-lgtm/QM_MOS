@@ -1,0 +1,13 @@
+# Copyrighted source paper — not redistributed
+Analysis_of_the_MOS_transistor_*.pdf
+
+# Python
+__pycache__/
+*.pyc
+
+# LaTeX aux
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
