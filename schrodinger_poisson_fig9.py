@@ -179,7 +179,7 @@ if __name__ == "__main__":
 
     out = np.column_stack((z*1e9, phi_cl, phi_qm, n_cl/1e6, n_qm/1e6))
     np.savetxt(
-        "/mnt/data/fig9_SP_numerical.csv", out, delimiter=",",
+        "fig9_SP_numerical.csv", out, delimiter=",",
         header="z_nm,phi_classical_V,phi_quantum_V,n_classical_cm-3,n_quantum_cm-3",
         comments=""
     )
@@ -205,6 +205,6 @@ if __name__ == "__main__":
     ins.tick_params(labelsize=8)
 
     fig.tight_layout()
-    fig.savefig("/mnt/data/Fig9_SP_from_first_principles.png", dpi=220)
-    print("Wrote /mnt/data/Fig9_SP_from_first_principles.png")
-    print("Wrote /mnt/data/fig9_SP_numerical.csv")
+    fig.savefig("Fig9_SP_from_first_principles.png", dpi=220)
+    print("Wrote Fig9_SP_from_first_principles.png")
+    print("Wrote fig9_SP_numerical.csv")
